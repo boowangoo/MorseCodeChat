@@ -1,0 +1,8 @@
+<!-- <script src="../lib/keypress/keypress.js"></script> -->
+<div class="full-size" ng-keypress="keyPressCall($event)" tabindex="0">
+  <ul id="messages"></ul>
+  <!-- <input id="m" autocomplete="off"/> -->
+  <!-- <button>Send</button> -->
+  <input type="text" ng-model="chatMessage">
+  <input type="submit" value="Send" ng-click="sendMessage(chatMessage);chatMessage=''">
+</div>

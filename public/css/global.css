@@ -1,0 +1,11 @@
+.view-full-size {
+  background-color: orange;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.full-size div {
+  background-color: green;
+  min-width: 100%;
+  min-height: 100%;
+}
